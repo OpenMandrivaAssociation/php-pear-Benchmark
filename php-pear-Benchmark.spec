@@ -6,7 +6,7 @@
 
 Summary:	%{_pearname} - benchmark PHP scripts or function calls
 Name:		php-pear-%{_pearname}
-Version:	1.2.6
+Version:	1.2.7
 Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
