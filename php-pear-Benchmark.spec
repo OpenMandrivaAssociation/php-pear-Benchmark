@@ -4,8 +4,8 @@
 %define		_requires_exceptions pear(../Timer.php)
 
 Name:		php-pear-%{upstream_name}
-Version:	1.2.7
-Release:	%mkrel 6
+Version:	1.2.8
+Release:	%mkrel 1
 Summary:	Benchmark PHP scripts or function calls
 License:	PHP License
 Group:		Development/PHP
@@ -23,7 +23,7 @@ Framework to benchmark PHP scripts or function calls.
 
 %prep
 %setup -q -c
-mv package2.xml %{upstream_name}-%{version}/%{upstream_name}.xml
+mv package.xml %{upstream_name}-%{version}/%{upstream_name}.xml
 
 %install
 rm -rf %{buildroot}
