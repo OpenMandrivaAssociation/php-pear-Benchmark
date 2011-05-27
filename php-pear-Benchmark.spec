@@ -5,7 +5,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.2.8
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	Benchmark PHP scripts or function calls
 License:	PHP License
 Group:		Development/PHP
