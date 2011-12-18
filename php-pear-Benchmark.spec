@@ -4,13 +4,13 @@
 %define		_requires_exceptions pear(../Timer.php)
 
 Name:		php-pear-%{upstream_name}
-Version:	1.2.8
-Release:	%mkrel 3
+Version:	1.2.9
+Release:	%mkrel 1
 Summary:	Benchmark PHP scripts or function calls
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/Benchmark/
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
+Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -34,6 +34,7 @@ rm -rf %{buildroot}%{_datadir}/pear/.??*
 
 rm -rf %{buildroot}%{_datadir}/pear/docs
 rm -rf %{buildroot}%{_datadir}/pear/tests
+rm -rf %{buildroot}%{_datadir}/pear/data
 
 install -d %{buildroot}%{_datadir}/pear/packages
 install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
