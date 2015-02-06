@@ -3,7 +3,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.2.9
-Release:	2
+Release:	3
 Summary:	Benchmark PHP scripts or function calls
 License:	PHP License
 Group:		Development/PHP
