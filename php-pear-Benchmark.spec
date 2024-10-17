@@ -7,7 +7,7 @@ Release:	3
 Summary:	Benchmark PHP scripts or function calls
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/Benchmark/
+URL:		https://pear.php.net/package/Benchmark/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
